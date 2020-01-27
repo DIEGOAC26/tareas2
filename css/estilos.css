@@ -1,0 +1,170 @@
+/* ---------------------- Variables */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+/* ---------------------- Variables */
+:root{
+--green-color:#7ACC2D;
+--white-color:white;
+--black-color:#313337;
+/* Tipografiao */
+--normal:var(--normal);
+/* Espaciado */
+--space:10px;
+/* Eos Shadow */
+--box:0px 0 2px 1px black;
+}
+
+/* -------------------------------------------  */
+
+html,body{
+    padding:0px;
+    margin:0px;
+    font-size: var(--normal);
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: var(--green-color);
+    padding: var(--space);
+    color: var(--white-color);
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-left: 20px;
+    list-style: none;
+}
+
+nav li a{
+   color: var(--black-color);
+   text-decoration: none;
+}
+
+nav li a:hover{
+    color: var(--white-color);
+}
+
+/* --------------------------- Main Section */
+
+.main_section{
+    padding: 15px;
+    text-align: center;
+}
+
+/* --------------------------- Productos */
+
+.products{
+    background-image: url(../images/curve.png);
+    max-height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding:15%;
+    display:flex
+}
+
+.products{
+    padding: 100px;
+    margin-top: -0px;
+}
+.products .content{
+    background-color:var(--white-color);
+    padding: 15px;
+    box-shadow: var(--box);
+}
+.img_content{
+    text-align: center;
+}
+
+.main_button{
+    background-color:var(--black-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: 17px;
+    color:var(--white-color);
+    border:0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.main_button:hover{
+    background-color:var(--green-color);
+}
+
+/* --------------------------- Caracteristicas */
+
+.caracteristicas{
+    background-size: cover;
+    background-position: center ;
+    padding: 10%;
+    display: flex;
+  }
+  
+  .caracts{
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 150px;
+  }
+  
+  .img_content{
+    text-align: center;
+    margin-bottom: 38px;
+  }
+
+  /* --------------------- Menciones */
+  .head_mencion{
+    text-align: center;
+  }
+  .menciones{
+    background-size: cover;
+    background-position: center ;
+    padding: 20px;
+    display: flex;
+  }
+  .contenth3{
+    text-align: center;
+    font: Bold 17px/23px Open Sans;
+    letter-spacing: 0;
+    color: #313337;
+    opacity: 1;
+  }
+  .contentp{
+    text-align: left;
+    font: Regular 12px/17px Open Sans;
+    letter-spacing: 0;
+    color: #313337;
+    opacity: 1;
+  }
+  .mencion .content{
+    background-color: var(--white-color);
+    padding: 0px;
+    border-radius: 2px;
+    margin: 5px;
+  }
+
+  /* --------------------- Footer */
+
+.footer{
+    background: #313337 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-ft{
+ color: white;
+ margin-top: 10px;
+ margin-left: 10px;
+}
+
+.container-contact{
+   color: white;
+   margin-top: 10px;
+   margin-right: 10px;
