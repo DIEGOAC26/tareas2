@@ -58,13 +58,14 @@ nav li a:hover{
 
 /* --------------------------- Productos */
 
-.products{
+.productos{
+    justify-content: center;
     background-image: url(../images/curve.png);
     max-height: 50px;
     background-size: cover;
     background-position: center top;
     padding:15%;
-    display:flex
+    display:flex;
 }
 
 .products{
@@ -116,7 +117,7 @@ nav li a:hover{
   }
 
   /* --------------------- Menciones */
-  .head_mencion{
+  .title_mencion{
     text-align: center;
   }
   .menciones{
@@ -124,6 +125,7 @@ nav li a:hover{
     background-position: center ;
     padding: 20px;
     display: flex;
+    justify-content: center;
   }
   .contenth3{
     text-align: center;
